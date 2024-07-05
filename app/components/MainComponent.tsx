@@ -199,6 +199,7 @@ const MainComponent = () => {
 
   useEffect(() => {
     updateStrategies();
+    setIsOpen(false);
   }, [selectedDate, activeTab]);
 
   const toggleDropdown = () => {
